@@ -1,0 +1,50 @@
+---
+title: Report of 2021 Rsearch Activites
+author: 
+- affiliation: RACE
+  description: Fish Biologist
+  email: Alexandra.Dowlin@NOAA.gov
+  name: Alexandra Dowlin
+output: word_document
+fontsize: 12pt
+addr: 
+  l1: 7600 Sand Pointe Way, NE
+  l2: NMFS RACE Division, Groundfish Assessment Program
+  l3: Seattle, WA 98115
+---
+
+```{r setup, include=FALSE}
+
+```
+
+State of Alaska Fish Resource Permit CF-16-010(1)  
+NOAA Fisheries Alaska Fisheries Science Center -- RACE Division  
+ 
+## **Activity Title:**  
+RACE Biennial Bottom Trawl Survey of Gulf of Alaska Groundfish and Invertebrate Resources  
+
+## **Introduction:**  
+The bottom trawl survey of the Gulf of Alaska is conducted to monitor the distribution, abundance, and biological characteristics of multiple species of groundfishes and invertebrates in coastal and offshore Alaskan waters. The survey goal is to consistently estimate the average catch per unit effort of key species and to expand these estimates to relative biomass on in a stratified-random survey design. Secondary goals are to characterize length and age distributions, growth, recruitment, stock structure, and other important life history information of key managed species to better predict the ecological and physical factors affecting their distribution and abundance. NOAA also collects information on other species to better identify the species and their distributions. These data, estimates, and study results are provided to NOAA and state stock assessment biologists and to the North Pacific Fishery Management Council (NPFMC) who use the information to determine productivity and to set annual Allowable Biological Catch (ABC) and Total Allowable Catch (TAC) for groundfish in the Gulf of Alaska.  
+
+## **Methods:**  
+succinct statement of methods – include dates and location(s)
+The Biennial Bottom Trawl Survey of Gulf of Alaska groundfish stocks typically employ two to three chartered commercial trawlers to conduct the survey for 75 days each, sampling the standard 320,000 km2 survey area with approximately 550-820 survey stations depending upon the number of vessels. The survey begins from the Islands of Four Mountains in the eastern Aleutian Islands in late May and ends around Dixon Entrance in late July to mid August. The stratified-random survey is segmented into five fishing areas, six depth strata, and three terrains (shelf, gully, slope) resulting in 54 individual strata. The survey stations are optimally allocated based upon the amount of area, past abundance and variability, and the importance of key species. A grid of 5 km by 5 km cells is overlain on bathymetric charts and a grid cell is the primary sampling element. A cell is selected at random within each stratum but is rejected if previous experience identifies it as an untrawlable area or if inspection in the field finds the sonar seafloor image to be too uneven. At each trawlable station, the survey vessel deploys a Poly Nor’Eastern research net with roller gear for a period of 15 minutes. Net dimensions, bottom contact, surface and bottom temperatures are monitored with sensing gear attached to the net. After successfully towing the net, it is retrieved, and the catch transferred to a table for processing. Processing includes identifying each species, weighing and counting each species, measuring the length of important species, collecting age, genetic, and other structures from selected specimens, and saving voucher specimens for later identification or storage in a museum. All data are entered into computers and error checked at several steps.  
+
+
+## **Results:**
+succinct statement of results – include summary of species and catch with reference to summary tables (see appendix), and if appropriate, disposition of specimens.
+Active fishing for the `r maxyr` Gulf of Alaska bottom trawl survey occurred between `r dates_conducted` and was the `r survnumber` multi-species survey in the 37 year time series. Two charter vessels, the FV `r vessel1` and the FV `r vessel2 ` were used for the GOA survey. By the end of the survey, biologists completed `r nstations` successful stations out of **total stations** planned stations in the entire shelf and upper slope to a depth of 700 m. There were **562** attempted hauls, but **33** attempts were not valid because of damaged nets, incorrect fishing configuration, or other reasons. **Sixty-one** stations were towed within Alaskan state waters. The survey collected, **96** fish taxa weighing **26.874** kg from Alaskan state waters. From both state and offshore waters, biologists collected **181** fish taxa that weighed **277,206** kg. There were **158** species of invertebrates encountered from state waters, and these weighed a total of **1,165** kg. **Eight species comprised approximately 80% of the sampled catch weight** from either state or all waters (see tables below). In all surveyed waters, there were **490** invertebrate taxa collected that weighed a total of **5,745** kg. In state waters, biologists collected **7** taxa of fish and invertebrates for vouchered identification, permanent storage, or other laboratory studies (see table below). In all waters, **65** taxa were collected as voucher specimens, and **11,709** otlith pairs were collected for the age analysis of **21** fish species. In state waters, **1,254** otolith pairs from **15** species were collected for age analysis. A validated data set was finalized on **30 September**, and final estimates of abundance and size composition of managed species and species groups were delivered to Groundfish Plan Team of the NPFMC. The survey data and estimates are available through the AKFIN system (http://www.psmfc.org/program/alaska-fisheries-information-network-akfin?pid=17). The Plan Team incorporated these survey results directly into Gulf of Alaska stock assessment and ecosystem forecast models that form the basis for groundfish harvest advice for ABCs and TAC for `r maxyr`. 
+
+
+**Appendix -- Catch/Collection Summaries**
+`r maxyr` Catch Summary Table -- Within 3-mile Territorial Waters
+Common Name / Scientific Name / Weight / Number
+
+`r maxyr` Catch Summary Table -- Totals for Survey (including state waters)
+Common Name / Scientific Name / Weight / Number
+
+`r maxyr` Voucher or Collection Specimens from Alaskan State Waters 
+Common Name / Species Name (Scientific name???) / Count / Comment
+
+`r maxyr` Voucher or Collection Specimens from All Waters
+Common Name / Species Name (Scientific name???) / Count / Comment
